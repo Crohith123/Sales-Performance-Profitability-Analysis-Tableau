@@ -1,150 +1,132 @@
-Sales Performance & Profitability Analysis Dashboard
+# 📊 Sales Performance & Profitability Analysis Dashboard
 
-📊 Project Overview
+An interactive Tableau dashboard designed to analyze sales, revenue, costs, profit, products, categories, stores, discounts, and time-based performance from an Excel sales dataset.
 
-The **Sales Performance & Profitability Analysis Dashboard** is an interactive data visualization project developed using Tableau to analyze sales performance, revenue, costs, profitability, products, categories, stores, and time-based trends.
+## 📌 Project Overview
 
-The project uses sales data from an Excel dataset and transforms the raw data into meaningful visual insights through an interactive Tableau dashboard. The dashboard helps users understand business performance and supports data-driven decision-making.
+The project transforms monthly sales data into a consolidated business intelligence dashboard. Tableau visualizations, calculated fields, filters, sets, and parameters are used to explore performance patterns and support data-driven decision-making.
 
-🎯 Objective
+## 🎯 Business Objective
 
-The main objective of this project is to analyze sales and profitability data and identify important business trends, top-performing products and stores, revenue patterns, cost relationships, and areas for improvement using Tableau.
+- Monitor overall sales and profitability
+- Identify top-performing stores and products
+- Compare product categories
+- Analyze revenue versus cost
+- Understand monthly and quarterly trends
+- Evaluate discount and pricing impact
+- Provide interactive exploration of business performance
 
-🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 
-- Tableau
-- Microsoft Excel
-- Data Visualization
+- **Tableau**
+- **Microsoft Excel**
 - Calculated Fields
 - Sets & Parameters
 - Filters
 - Data Aggregation
+- Time-Series Analysis
 - Dashboard Design
 - Business Intelligence
 
-📌 Concepts Used
+## 📌 Key Metrics
 
-  • Data Visualization
-  • Calculated Fields
-  • KPI Cards
-  • Filters
-  • Parameters
-  • Sets
-  • Data Aggregation
-  • Time-Series Analysis
-  • Dashboard Design
-  • Interactive Dashboard
+- Total Sales / Revenue
+- Profit
+- Quantity Sold
+- Cost
+- Average Selling Price
+- Discount Rate
 
-⭐ Key Features
+## ⭐ Key Features
 
-  • Interactive Sales Dashboard
-  • Total Sales & Profit KPIs
-  • Monthly Sales Trend Analysis
-  • Category-wise Sales Analysis
-  • Revenue & Cost Comparison
-  • Top-Performing Store Analysis
-  • Product-wise Performance Analysis
-  • Quarterly Performance Analysis
-  • Discount & Pricing Analysis
-  • Interactive Filters and Parameters
+- Interactive sales dashboard
+- KPI cards
+- Monthly sales trend analysis
+- Category-wise sales comparison
+- Revenue vs cost analysis
+- Top-store analysis
+- Product performance analysis
+- Quarterly performance analysis
+- Discount and pricing analysis
+- Interactive filters, sets, and parameters
 
-📈 Visualizations Used
+## 📈 Visualizations
 
-• KPI Cards
-• Monthly Sales Trend
-• Category-wise Sales Chart
-• Revenue vs Cost Chart
-• Top 10 Stores Chart
-• Product Performance Chart
-• Quarterly Sales Analysis
-• Discount Analysis
-• Profitability Analysis
-• Interactive Filters
+| Visualization | Purpose |
+|---|---|
+| KPI Cards | Monitor headline business metrics |
+| Monthly Sales Trend | Analyze sales movement over time |
+| Category-wise Sales | Compare category performance |
+| Revenue vs Cost | Understand profitability drivers |
+| Top 10 Stores | Identify leading stores |
+| Product Performance | Compare product-level results |
+| Quarterly Analysis | Review period-level performance |
+| Discount Analysis | Evaluate discount patterns |
+| Profitability Analysis | Examine profit and cost relationships |
 
-🔍 Project Explanation
+## 🗂️ Dataset
 
-The dashboard focuses on important business performance indicators such as **total revenue, profit, quantity sold, cost, average selling price, and discount rate**.
-
-Different visualizations are used to analyze monthly and quarterly sales trends, compare product categories, identify top-performing stores, evaluate product performance, and understand the relationship between revenue, cost, and profitability.
-
-Interactive filters, sets, and parameters allow users to explore the dashboard dynamically based on different products, categories, stores, and time periods.
-
-The project demonstrates how Tableau can be used to transform raw business data into an interactive analytical dashboard and generate useful insights for business decision-making.
-
-📂 Dataset
-
-The project uses an Excel dataset containing monthly sales information for **August 2025**.
-
-The dataset is used as the source for creating the Tableau visualizations and dashboard.
-
-Dataset File
+The dashboard uses the repository's Excel dataset:
 
 `Monthly_Sales_August_2025.xlsx`
 
-📊 Dashboard
+The workbook contains monthly sales information for August 2025 and serves as the source for the Tableau analysis.
 
-The final Tableau dashboard provides a consolidated view of sales and profitability performance through multiple interactive visualizations.
-
-Dashboard Preview
+## 🖼️ Dashboard Preview
 
 ![Tableau Dashboard](tableau%20dashboard%20pic.jpeg)
 
-🖼️ Dashboard Data Reference
-
-The repository also contains the reference/data image used during the dashboard development.
-
-Reference File
-
-`Dashboard data.JPG`
-
-📁 Project Files
+## 🗃️ Project Files
 
 | File | Description |
-|------|-------------|
-| `Monthly_Sales_August_2025.xlsx` | Excel source dataset used for analysis |
-| `Sales-Performance-Profitability-Analysis-Tableau.twbx` | Complete Tableau packaged workbook |
-| `tableau dashboard pic.jpeg` | Final Tableau dashboard preview |
+|---|---|
+| `Monthly_Sales_August_2025.xlsx` | Source sales dataset |
+| `Sales-Performance-Profitability-Analysis-Tableau.twbx` | Packaged Tableau workbook |
+| `tableau dashboard pic.jpeg` | Final dashboard preview |
 | `Dashboard data.JPG` | Dashboard/data reference image |
 | `README.md` | Project documentation |
 
-💡 Advantages
+## 🔄 Analysis Workflow
 
-• Easy and interactive data analysis
-• Provides clear sales and profit insights
-• Identifies top-performing products and stores
-• Enables quick comparison of revenue and costs
-• Helps track monthly and quarterly sales trends
-• Supports data-driven business decisions
-• Reduces manual data analysis effort
-• Presents complex data in an easy-to-understand format
+```text
+Excel Sales Dataset
+        ↓
+Data Preparation
+        ↓
+Tableau Data Connection
+        ↓
+Calculated Fields / Aggregation
+        ↓
+Charts & KPI Design
+        ↓
+Interactive Dashboard
+        ↓
+Business Insights
+```
 
-🚀 Future Enhancements
+## 🎯 Skills Demonstrated
 
-• Real-time Data Integration
-• Sales Forecasting
-• Customer Segmentation
-• AI-Based Sales Insights
-• Automated Performance Alerts
-• Advanced Profitability Analysis
-• Mobile-Friendly Dashboard
-• Tableau Cloud Integration
+`Tableau` · `Excel` · `Data Visualization` · `Calculated Fields` · `KPI Design` · `Filters` · `Parameters` · `Sets` · `Data Aggregation` · `Time-Series Analysis` · `Business Intelligence`
 
-Conclusion
+## 🚀 Future Enhancements
 
-The **Sales Performance & Profitability Analysis Dashboard** successfully transforms raw sales data into meaningful and interactive business insights using Tableau.
+- Integrate larger or continuously refreshed datasets
+- Add sales forecasting
+- Add customer segmentation
+- Add advanced profitability analysis
+- Add automated performance alerts
+- Publish to Tableau Cloud
+- Add mobile-optimized dashboard views
 
-By using visualizations, calculated fields, filters, sets, and parameters, the project provides an effective way to analyze sales, revenue, profit, costs, products, categories, stores, and time-based performance.
+## 👨‍💻 Author
 
-The dashboard makes complex sales information easier to understand and helps users identify important business trends and performance patterns, supporting effective **data-driven decision-making**.
+**C. Rohith Kumar Reddy**
 
-👨‍💻 Author
+Data Analytics | Tableau | Power BI | SQL | Python
 
-C. Rohith Kumar Reddy**
+- GitHub: [Crohith123](https://github.com/Crohith123)
+- LinkedIn: [C. Rohith](https://www.linkedin.com/in/c-rohith)
 
-Data Analytics Enthusiast | Tableau | Power BI | SQL | Python
+## 📄 Project Type
 
-Connect with Me
-
-[LinkedIn](https://www.linkedin.com/in/c-rohith)
-
-[GitHub](https://github.com/Crohith123)
+**Data Analytics | Business Intelligence | Tableau**
